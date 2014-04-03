@@ -14,11 +14,5 @@ If you can't upgrade, for whatever reason, you can check out the [DEPRECATED rea
 Simply get these plugins, place them where you like, and include them through the config file.
 
 ```
-wm.config = {
-//...
-
-//Plugins for Weltmeister: an array of module names to load
-plugins: ['weltmeister.plugins.save-extra', 'weltmeister.plugins.floodfill'],
-
-//...
+plugins: ['weltmeister.plugins.save-extra', 'weltmeister.plugins.floodfill', '...']
 ```
